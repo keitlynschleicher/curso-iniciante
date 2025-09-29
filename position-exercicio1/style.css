@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #f7f7f7;
+  font-family: arial;
+  margin: 0;
+}
+
+.logo {
+  grid-column: 1 / -1;
+  max-width: 100%;
+  padding: 60px;
+  text-align: center;
+}
+
+.menu {
+  padding-bottom: 60px;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+a {
+  padding: 20px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.bike.img {
+  max-width: 100%;
+  border-radius: 4px;
+}
