@@ -1,14 +1,19 @@
-div {
-  border: 2px solid #e7e;
-  padding: 40px 40px 40px 40px;
-  margin-top: 40px;
-  position: relative;
+h1 {
+  margin: 0;
+  padding: 10px;
+  background: #c8a2c8;
 }
 
-span {
-  background: #e7e;
-  padding: 10px;
-  border: 1px solid #e7e;
-  position: absolute;
+.index1 {
+  position: relative;
+  background: #c8c8c8;
   top: 10px;
+  z-index: 0;
+}
+
+.index2 {
+  position: relative;
+  background: #a2c8a2;
+  top: 10px;
+  z-index: 01;
 }
