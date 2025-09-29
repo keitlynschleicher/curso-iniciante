@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.preco {
+  display: grid;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.comprar {
+  background: #a9f;
+  text-decoration: none;
+  color: #101;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
