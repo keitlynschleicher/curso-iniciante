@@ -1,0 +1,59 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo {
+  grid-column: 1 / -1;
+  font-size: 40px;
+  text-align: center;
+}
+
+.info {
+  place-self: start;
+  display: grid;
+  gap: 10px;
+  place-items: start;
+}
+
+.comprar {
+  background: #a9f;
+  text-decoration: none;
+  color: #101;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* estilos gerais*/
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
